@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Senga bir gapim bor</title>
+
+  <link rel="stylesheet" href="sorry.css" />
+  <script src="sorry.js" defer></script>
+</head>
+
+<body>
+  <main class="card">
+    <!-- Birinchi sahifa -->
+    <section id="startPage" class="page">
+      <div class="leaf">🍃</div>
+      <p class="small-title">Faqat sen uchun</p>
+
+      <h1>Tayyormisan?</h1>
+      <p class="description">Senga aytadigan muhim gapim bor…</p>
+
+      <div class="buttons">
+        <button id="yesButton" class="button yes-button">Ha 💚</button>
+        <button id="noButton" class="button no-button">Yo‘q</button>
+      </div>
+    </section>
+
+    <!-- "Yo‘q" bosilgandagi sahifa -->
+    <section id="noPage" class="page hidden">
+      <div class="cat" aria-label="Xafa mushukcha">😿</div>
+      <h1>Mayli…</h1>
+      <p class="description">Mushukcham shunchalik hafamisan 🥺</p>
+
+      <button id="backButton" class="button yes-button">
+        Qayta tanlash ↩
+      </button>
+    </section>
+
+    <!-- "Ha" bosilgandagi kechirim maktubi -->
+    <section id="letterPage" class="page hidden">
+      <div class="leaf">💌</div>
+      <p class="small-title">chin yurakdan</p>
+
+      <h1>Ahmoqligim uchun uzur!!!</h1>
+
+      <div class="letter">
+        <p>Timur</p>
+
+        <p>
+          Sizni xafa qilganim uchun chin dildan kechirim so‘rayman.
+          Gaplarim juda ahmoqona va harakterim ham juda jinni ekanligini bilaman
+          lekin mening gaplarim va shunga oxshash qiliqlarim sizga va sizning kayfiyatizga tasir qiladi dep oylamagandm
+        </p>
+
+        <p>
+          Sen men uchun juda qadrli insonsan. Agar tayyor bo‘lsang,
+          seni tinglashni va hammasini yaxshilash uchun harakat
+          qilishni istayman.
+        </p>
+
+        <p>Hozir javob berishing shart emas.</p>
+
+        <p class="signature">Mehr bilan,<br /><div mushukcha Oltinoy=""></div></p>
+      </div>
+      <button id="forYouButton" class="button yes-button">
+  For you 💚
+</button>
+    </section>
+    <section id="lovePage" class="page hidden">
+  <p class="love-quote">if u can be my taki i can be ur mitsuha</p>
+
+  <img
+    class="love-image"
+    src="yourname.jpg"
+    alt="Your Name filmidagi juftlik"
+  />
+
+  <p class="mood-message">
+    Sening kayfiyating men uchun juda muhim o‘rin egallaydi 💚
+  </p>
+
+  <audio class="music-player" controls preload="metadata">
+    <source src="yung kai.mp3" type="audio/mpeg" />
+    Brauzeringiz audio ijro etishni qo‘llab-quvvatlamaydi.
+  </audio>
+
+  <button id="backToLetterButton" class="button secondary">
+    Maktubga qaytish
+  </button>
+</section>
+  </main>
+
+  <script>
+    // Tugmalar app.js faylida ishlaydi
+  </script>
+</body>
+</html>
